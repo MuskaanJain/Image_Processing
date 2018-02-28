@@ -1,3 +1,5 @@
+//code below morph two images
+
 #include <stdio.h>
 #include <iostream>
 #include <opencv2/highgui/highgui.hpp>
@@ -23,8 +25,8 @@ Mat morph(Mat img1,Mat img2,int x)
 
 int main(){
 
-    Mat img1= imread("6.png");
- Mat img2= imread("61.png");
+    Mat img1= imread("img1.png");
+    Mat img2= imread("img2.png");
     
     namedWindow("600",WINDOW_NORMAL);
     createTrackbar("t","600",&x,100);
