@@ -1,4 +1,4 @@
-//code below morph two images
+//code below morph two images img1.png and img2.png
 
 #include <stdio.h>
 #include <iostream>
