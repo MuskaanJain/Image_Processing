@@ -1,4 +1,4 @@
-///Edge detection using Perwitt operator
+///Edge detection of an image using Perwitt operator
 
 #include <stdio.h>
 #include <iostream>
